@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   
+     <EditTextPreference  
+     		android:title="@string/deviceid_title"
+            android:key="deviceid" 
+            android:numeric="decimal"
+            android:maxLength="50"
+            android:summary="@string/deviceid_summary"
+            android:name="EditText Preference"
+            android:defaultValue="0" 
+             />   
+      
+      
+      <ListPreference 
+          android:title="@string/wifi_title"
+      	  android:summary="@string/wifi_summary"
+          android:entries="@array/nettype_array"
+          android:key="wifi" 
+          android:defaultValue="1"
+          android:entryValues="@array/nettype_value_array" />      
+          
+      <ListPreference 
+          android:title="@string/recsourcetype_title"
+      	  android:summary="@string/recsourcetype_summary"
+          android:entries="@array/recsourcetype_array"
+          android:key="recsourcetype" 
+          android:defaultValue="0"
+          android:entryValues="@array/recsourcetype_value_array" />
+          
+      
+	
+     
+   <CheckBoxPreference
+      android:key="callnow"
+      android:title="@string/call_title"
+      android:summary="@string/call_summary"
+      android:defaultValue="true" />
+   
+    <CheckBoxPreference
+      android:key="vibro"
+      android:title="@string/vibro_title"
+      android:summary="@string/vibro_summary"
+      android:defaultValue="false" />
+    
+    
+      <CheckBoxPreference
+      android:key="autorun"
+      android:title="@string/autorun_title"
+      android:summary="@string/autorun_summary"
+      android:defaultValue="true" />
+      
+      
+       
+         <CheckBoxPreference
+      android:key="recordecall"
+      android:title="@string/rec_title"
+      android:summary="@string/rec_summary"
+      android:defaultValue="true" />   
+      
+           <CheckBoxPreference
+      android:key="recordecallplusin"
+      android:title="@string/recin_title"
+      android:summary="@string/recin_summary"
+      android:defaultValue="true" />
+     
+
+
+ 
+ <EditTextPreference  android:title="@string/serverurlwifi_title"
+           	android:key="serverurlwifi" 
+            android:summary="@string/serverurlwifi_summary" 
+            android:name="EditText Preference"
+            android:defaultValue="http://11.1.1.1/RDov.aspx" />
+
+ 
+ <EditTextPreference  android:title="@string/serverurl3g_title"
+           	android:key="serverurl3g" 
+            android:summary="@string/serverurl3g_summary" 
+            android:name="EditText Preference"
+            android:defaultValue="http://1.1.1.1:45080/RDov.aspx" />
+ 
+ 
+ 
+ <EditTextPreference  android:title="@string/serverftp_title"
+           	android:key="serverftp" 
+            android:summary="@string/serverftp_summary" 
+            android:name="EditText Preference"
+            android:defaultValue="11.1.1.1" />
+ 
+ <EditTextPreference  
+     		android:title="@string/portftp_title"
+            android:key="portftp" 
+            android:numeric="decimal"
+            android:maxLength="6"
+            android:summary="@string/portftp_summary"
+            android:name="EditText Preference"
+            android:defaultValue="21" 
+             />
+ 
+  <EditTextPreference  android:title="@string/nameftp_title"
+           	android:key="nameftp" 
+            android:summary="@string/nameftp_summary" 
+            android:name="EditText Preference"
+            android:defaultValue="android" />
+ 
+  
+   <EditTextPreference  android:title="@string/passftp_title"
+           	android:key="passftp" 
+           	android:password="true"
+            android:summary="@string/passftp_summary" 
+            android:name="EditText Preference"
+            android:defaultValue="1234" />
+  
+ 
+
+ 
+ <EditTextPreference  
+     		android:title="@string/time_title"
+            android:key="interval" 
+            android:numeric="decimal"            
+            android:summary="@string/time_summary"
+            android:name="EditText Preference"
+            android:defaultValue="10" 
+             />
+ 
+ <EditTextPreference  
+     		android:title="@string/timestart_title"
+            android:key="timestart" 
+            android:numeric="decimal"
+            android:maxLength="2"
+            android:summary="@string/timestart_summary"
+            android:name="EditText Preference"
+            android:defaultValue="8" 
+             />
+ 
+ <EditTextPreference  
+     		android:title="@string/timestop_title"
+            android:key="timestop" 
+            android:numeric="decimal"
+            android:maxLength="2"
+            android:summary="@string/timestop_summary"
+            android:name="EditText Preference"
+            android:defaultValue="21" 
+             />
+ 
+ 
+ 
+  <EditTextPreference  
+     		android:title="@string/log_title"
+            android:key="log" 
+            android:numeric="decimal"            
+            android:summary="@string/log_summary"
+            android:name="EditText Preference"
+            android:defaultValue="5" 
+             />
+  
+  
+   <CheckBoxPreference
+      android:key="back"
+      android:title="@string/back_title"
+      android:summary="@string/back_summary"
+      android:defaultValue="true" />
+   
+   <CheckBoxPreference
+      android:key="recordingcall"
+      android:title="@string/recording_title"
+      android:enabled="true"
+      android:summary="@string/recording_summary"
+      android:defaultValue="false" />
+  
+  <!-- 
+    <CheckBoxPreference
+      android:key="lock"
+      android:title="@string/lock_title"
+      android:summary="@string/lock_summary"
+      android:defaultValue="true" />
+ 
+        -->     
+                                        
+       
+
+</PreferenceScreen>

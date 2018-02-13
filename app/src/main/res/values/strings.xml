@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">сомбелбанк</string>
+    <string name="app_name">СББ КЦ</string>
+    
+    <string name="call_title">Совершение звонков</string>
+	<string name="call_summary">Набирать номер сразу или только показать номер телефона</string>
+	
+	
+	<string name="deviceid_title">Device id</string>
+	<string name="deviceid_summary">Номер устройства</string>
+	
+	<string name="serverurlwifi_title">Сервер url (WiFi)</string>
+	<string name="serverurlwifi_summary">локальный адрес сервера по сети wifi</string>
+	
+	<string name="serverurl3g_title">Сервер url (3G)</string>
+	<string name="serverurl3g_summary">Адрес сервера в Интернет - 3G</string>	
+	
+	
+	<string name="time_title">Интервал</string>
+	<string name="time_summary">Интервал проверки сервера каждые x сек.</string>
+	
+	<string name="settings_label">Настройки</string>
+	
+	<string name="vibro_title">Виброотклик</string>
+	<string name="vibro_summary">Вибрировать при совершении звонка</string>
+	
+	<string name="autorun_title">Автозапуск</string>
+	<string name="autorun_summary">Запускать сервис при включении телефона</string>
+	
+	<string name="log_title">Лог</string>
+	<string name="log_summary">Максимальное количество выводимых записей в Журнале звонков</string>
+	
+	<string name="back_title">Backup записей</string>
+	<string name="back_summary">Сохранять локальный backup при забирании записей разговоров на FTP сервер</string>
+	
+	
+	<string name="timestart_title">Старт</string>
+	<string name="timestart_summary">Время начала работы сервиса (ч.)</string>
+	
+	<string name="timestop_title">Стоп</string>
+	<string name="timestop_summary">Время окончания работы сервиса (ч.)</string>
+	
+	<string name="wifi_title">Сеть WiFi или 3G?</string>
+	<string name="wifi_summary">Работа в локальной сети по Wifi ИЛИ через Интернет по 3G</string>
+	
+	
+		
+	
+	<string name="lock_title">Запрет блокирования</string>
+	<string name="lock_summary">Не включать блокирование экрана - если при этом отключается wifi</string>
+	
+	<string name="rec_title">Запись</string>
+	<string name="rec_summary">запись телефонных разговоров (исходящих и входящих)</string>
+	
+	<string name="recin_title">+Запись и входящих звонков</string>
+	<string name="recin_summary">запись входящих телефонных разговоров иначе - только исходящие.</string>
+	
+	<string name="serverftp_title">FTP Server адрес</string>
+	<string name="serverftp_summary">адрес FTP сервера для копирования записанных разговоров</string>
+	
+	<string name="portftp_title">FTP Server порт</string>
+	<string name="portftp_summary">порт FTP сервера для копирования записанных разговоров</string>
+	
+	<string name="nameftp_title">FTP Server логин</string>
+	<string name="nameftp_summary">логин FTP сервера для копирования записанных разговоров</string>
+	
+	<string name="recording_title">Идет запись разговора</string>
+	<string name="recording_summary">Используется в служебных целях при старте/остановке записи для блокировки доступа</string>
+	
+	
+	
+	<string name="passftp_title">FTP Server пароль</string>
+	<string name="passftp_summary">пароль FTP сервера для копирования записанных разговоров</string>
+	
+	<string-array name="nettype_array">
+	    <item>wifi</item>
+	    <item>3G</item>
+	</string-array>
+	
+	
+	<string-array name="nettype_value_array">
+		<item>1</item>
+		<item>2</item>		
+	</string-array>
+	
+	
+	<string name="recsourcetype_title">Устройство записи</string>
+	<string name="recsourcetype_summary">Выбор устройства для записи - для проверки на разных моделях устройств</string>
+	
+	<string-array name="recsourcetype_array">
+	    <item>DEFAULT</item>
+	    <item>MIC</item>
+	    <item>VOICE_UPLINK</item>
+	    <item>VOICE_DOWNLINK</item>
+	    <item>VOICE_CALL</item>
+	    <item>CAMCORDER</item>
+	    <item>VOICE_RECOGNITION</item>
+	    <item>VOICE_COMMUNICATION</item>	    
+	</string-array>
+	
+	
+	<string-array name="recsourcetype_value_array">
+		<item>0</item>
+		<item>1</item>		
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array>
+	
+	
+	
+	
+	
+	
+    
+
+</resources>

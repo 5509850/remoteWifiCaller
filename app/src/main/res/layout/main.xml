@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#671427"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hello"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_test"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Тест"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Запустить сервис"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Остановить сервис"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_log"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Журнал звонков"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    
+    
+      <Button
+        android:id="@+id/button_ftp"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Отправить записи по FTP"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    
+
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Настройки"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/text_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"                        
+            android:ems="10"
+            android:inputType="textMultiLine"            
+            android:typeface="serif" >
+                    <requestFocus />
+                    </TextView>
+    </ScrollView>
+
+ 
+
+</LinearLayout>
